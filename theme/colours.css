@@ -189,10 +189,10 @@ blockquote, blockquote div, .codebox {
 .forum_link							{ background-image: url("./images/forum_link.png"); }
 .forum_read							{ background-image: url("./images/forum_read.png"); }
 .forum_read_locked					{ background-image: url("./images/forum_read_locked.png"); }
-.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.v"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.png"); }
 .forum_unread						{ background-image: url("./images/forum_unread.png"); }
 .forum_unread_locked				{ background-image: url("./images/forum_unread_locked.png"); }
-.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.v"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.png"); }
 
 .sticky_read						{ background-image: url("./images/sticky_read.png"); }
 .sticky_read_mine					{ background-image: url("./images/sticky_read_mine.png"); }
