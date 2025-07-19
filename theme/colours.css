@@ -33,6 +33,9 @@ a:hover, a:focus, a:active {
     color: #F5F5F5;
 }
 
+p.post-notice {
+	color: black;
+}
 
 /*
 --------------------------------------------------------------
