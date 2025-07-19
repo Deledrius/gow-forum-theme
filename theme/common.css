@@ -24,9 +24,20 @@ div#header {
 	padding: 0;
 	clear: both;
 }
+
 div#header > a {
     float: right;
 }
+
 img.title {
 	margin: 9em 0 0 0;
+}
+
+.action-bar {
+    margin-bottom: 10px;
+}
+
+.post {
+    margin-bottom: 15px;
+    border: 1px solid #444;
 }
