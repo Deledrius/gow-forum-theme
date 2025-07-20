@@ -384,4 +384,7 @@ Control Panel colors for cp.css
     background: #292929;
 }
 
+.cp-main .pm {
+	background-color: var(--gow-grey);
+}
 
