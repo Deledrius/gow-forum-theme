@@ -152,12 +152,12 @@ li.row:hover {
 .content h2,
 .panel h2 {
     color: #FFFFFF;
-    border-bottom-color: #CCCCCC;
+    border-bottom-color: #CCC;
 }
 
 .postprofile {
     color: #BBB;
-    border-color: #FFFFFF;
+    border-color: #CCC;
 }
 
 .postprofile strong {
@@ -415,3 +415,6 @@ Control Panel colors for cp.css
 	background-color: var(--gow-grey);
 }
 
+.current {
+	color: var(--gow-blue) !important;
+}
