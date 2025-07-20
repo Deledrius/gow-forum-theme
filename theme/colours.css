@@ -99,7 +99,7 @@ Round cornered boxes and backgrounds
 
 .panel {
     background-color: var(--gow-grey);
-    color: #333;
+    color: #BBB;
 }
 
 .post:target .content {
@@ -112,11 +112,11 @@ Round cornered boxes and backgrounds
 }
 
 .bg1 {
-    background-color: #222 !important;
+    background-color: #222;
 }
 
 .bg2 {
-    background-color: #272727 !important;
+    background-color: #272727;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -129,6 +129,10 @@ table.table1 tbody tr {
 
 table.table1 tbody td {
     border-top-color: #444;
+}
+
+table.table1 tbody tr:hover, table.table1 tbody tr.hover {
+	background-color: var(--gow-grey);
 }
 
 
@@ -169,6 +173,10 @@ li.row strong {
 
 li.row:hover {
     background-color: #333;
+}
+
+li.row:hover dd {
+	border-left-color: #272727;
 }
 
 .postbody {
@@ -355,11 +363,10 @@ Colours and backgrounds for buttons.css
 .button1, input.button1, a.button1,
 .button2, input.button2, a.button2,
 .button3, input.button3, a.button3 {
-
-    background: #3A3A39;
-    border-color: rgba(255, 200, 200, 0.25);
+    background: #444;
+    border-color: #111;
     color: white;
-    box-shadow: 0 0 0 1px #FFFFFF inset;
+    box-shadow: 0 0 4px 2px #333 inset;
 }
 
 input.button1, a.button2 {
