@@ -194,8 +194,15 @@ blockquote, blockquote div, .codebox {
 	border-color: var(--gow-red);
 }
 
-.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible 
-a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+.pagination li a {
+	background-color: var(--gow-grey);
+    color: #DDD;
+    border-color: #555;
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, 
+.pagination .dropdown-visible a.dropdown-trigger, 
+.nojs .pagination .dropdown-container:hover a.dropdown-trigger {
 	background: var(--gow-red);
 	border-color: var(--gow-red);
 }
