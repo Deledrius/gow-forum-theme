@@ -76,21 +76,36 @@ Round cornered boxes and backgrounds
     color: #BBB;
 }
 
+.post h3 a.first-unread,
 .post:target h3 a {
-    color: #BBB;
+    color: var(--gow-blue);
 }
 
 .bg1 {
-    background-color: #292929;
+    background-color: #222 !important;
 }
 
 .bg2 {
-    background-color: #292929;
+    background-color: #272727 !important;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
     background-color: #191919;
 }
+
+table.table1 tbody tr {
+	border-color: #444;
+}
+
+table.table1 tbody td {
+	border-top-color: #444;
+}
+
+
+/*
+--------------------------------------------------------------
+Colours and backgrounds for content.css
+-------------------------------------------------------------- */
 
 ul.forums {
     background: #171717;
@@ -173,6 +188,18 @@ blockquote, blockquote div, .codebox {
 .codebox pre code {
     color: #DDD;
 }
+
+.pagination li.active span {
+	background: var(--gow-red);
+	border-color: var(--gow-red);
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible 
+a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	background: var(--gow-red);
+	border-color: var(--gow-red);
+}
+
 
 /* GoW's Custom Forum & Topic icons */
 .global_read						{ background-image: url("./images/announce_read.png"); }
