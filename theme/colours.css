@@ -37,6 +37,36 @@ p.post-notice {
 	color: black;
 }
 
+.jumpbox-cat-link {
+	background-color: var(--gow-red);
+	border-top-color: var(--gow-red);
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #A33;
+	border-top-color: #A33;
+}
+
+.jumpbox-forum-link {
+	background-color: var(--gow-grey);
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #444;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: var(--gow-grey) transparent;
+}
+
+.jumpbox-sub-link {
+	background-color: var(--gow-grey);
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #444;
+}
+
 /*
 --------------------------------------------------------------
 Round cornered boxes and backgrounds
