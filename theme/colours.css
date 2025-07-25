@@ -219,7 +219,10 @@ li.row:hover dd {
     box-shadow: 0 0 10px #333;
 }
 
-blockquote, blockquote div, .codebox {
+blockquote, 
+blockquote blockquote,
+blockquote blockquote blockquote,
+blockquote div, .codebox {
     background-color: #333;
 }
 
