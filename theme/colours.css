@@ -354,6 +354,10 @@ fieldset dl dt span {
     border-color: #777;
 }
 
+table.zebra-list tr:nth-child(odd).attach-row td {
+    background-color: #222;
+}
+
 dl.file dd {
     color: unset;
 }

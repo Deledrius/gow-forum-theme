@@ -45,3 +45,7 @@ img.title {
 .site_logo {
     display: none;
 }
+
+td.attach-filesize {
+    text-align: center;
+}
